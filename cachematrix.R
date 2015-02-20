@@ -1,6 +1,5 @@
 ## CCoursera Course: R_Programming
 ## Programming Assignment 2: Lexical Scoping
-##
 
 ## This function creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
@@ -18,7 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinverse = setinverse,
        getinverse = getinverse)  
 }
-
 
 ## This function computes the inverse of the special "matrix" returned by makeCacheMatrix 
 ## If the inverse has already been calculated (and the matrix has not changed), 
